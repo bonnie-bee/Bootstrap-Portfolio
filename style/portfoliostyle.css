@@ -1,4 +1,36 @@
 #name{
     font-size: 1.8em;
+    color: black;
 }
+
+body{
+    background: white;
+}
+
+.container{
+    margin-top: 50px;
+}
+.row{
+    background: white;
+    text-align: center;
+    }
+
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.footer{
+    background: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
 
