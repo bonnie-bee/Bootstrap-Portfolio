@@ -1,4 +1,34 @@
 #name{
     font-size: 1.8em;
+    color: black;
+}
+
+body{
+    background: white;
+}
+
+.container{
+    margin-top: 50px;
+}
+.row{
+    background: white;
+    }
+
+.indexContent{
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+a {
+    color: black;
+}
+
+.footer{
+    background: white;
+    margin-top: 5%;
+    text-align: center;
 }
 
