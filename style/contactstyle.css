@@ -3,6 +3,10 @@
     color: black;
 }
 
+.nav-item{
+    text-align: right;
+}
+
 a {
     color: black;
 }
