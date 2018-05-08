@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #13c6f2">
+    <nav class="navbar navbar-expand-lg" style="background-color: white">
         <a class="navbar-brand" id="name" href="#">Bonnie Birch</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,31 @@
         </div>
       </nav>
 
-    <container>
-
-    </container>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h2>Questions? Comments? Want to tell Zoey she's a good girl?</h2>
+          <hr>
+        </div>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="nameEntry">Name</label>
+          <input type="name" class="form-control" id="nameEntry" placeholder="Zoey Birch">
+        </div>
+        <div class="form-group">
+          <label for="emailEntry">Email address</label>
+          <input type="email" class="form-control" id="emailEntry" placeholder="zoey@imadog.com">
+        </div>
+        <div class="form-group">
+          <label for="textEntry">Message</label>
+          <textarea class="form-control" id="textEntry" rows="3"></textarea>
+        </div>
+      </form>
+      <button type="submit" class="btn btn-primary align-right">Submit</button>
+      <div class="footer center">
+        <p>Copyright 2018©</p>
+      </div>
+    </div>
   </body>
+</html>

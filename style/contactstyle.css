@@ -1,4 +1,32 @@
 #name{
     font-size: 1.8em;
+    color: black;
 }
+
+a {
+    color: black;
+}
+
+body{
+    background: white;
+}
+
+.container{
+    margin-top: 50px;
+}
+.row{
+    background: white;
+    }
+
+    
+
+
+.footer{
+    background: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
 
