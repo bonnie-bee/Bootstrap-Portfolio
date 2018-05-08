@@ -8,15 +8,26 @@
 }
 
 body{
-    background: white;
+    background:white;
 }
 
 .container{
     margin-top: 50px;
 }
-.row{
-    background: white;
+
+/*.row{
+    background-color: rgba(0, 238, 255, .1);
     }
+
+.theFirst{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.theLast{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}*/
 
 .indexContent{
     padding-bottom: 5%;
