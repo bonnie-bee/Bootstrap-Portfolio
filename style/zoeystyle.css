@@ -1,7 +1,34 @@
 #name{
     font-size: 1.8em;
+    color: black;
 }
 
 body{
-    background: black;
+    background: white;
 }
+
+.container{
+    margin-top: 50px;
+}
+.row{
+    background: white;
+    }
+
+#zoAndMe{
+    margin-bottom: 5%;
+}
+
+#sleeping{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer{
+    background: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+
