@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+.about{
+    background-image: url('../Assets/hobbiton2.jpg');
+    width: 700px;
+    height: 350px;
+     
+}
+
+.portfolio{
+    background-image: url('../Assets/rocketField.jpg');
+    width: 700px;
+    height: 350px;
+     
+    z-index: 1;
+}
+
+.dog{
+    background-image: url('../Assets/penguins.jpg');
+    width: 700px;
+    height: 350px;
+     
+    z-index: 1;
+}
+
+.contact{
+    background-image: url('../Assets/samBeach.jpg');
+    width: 700px;
+    height: 350px;
+     
+    z-index: 1;
+}
