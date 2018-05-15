@@ -25,6 +25,10 @@ p {
     text-align: center;
 }
 
+#little{
+    font-size: 1em;
+}
+
 a {
     color: black;
 }
