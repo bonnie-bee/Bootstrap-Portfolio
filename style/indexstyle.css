@@ -3,17 +3,51 @@ h1{
 }
 
 .colors{
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 30px;
+    position: relative;
     z-index: 1;
+    max-width: 95%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.picBtn{
+    width: 800px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    /* justify-content: center; */
+    font-size: 7em;
+    color: whitesmoke;
+    
+ /* font-family: 'Homemade Apple', cursive; */
+font-family: 'Rochester', cursive;
+/* font-family: 'Norican', cursive; */
+/* font-family: 'Molle', cursive; */
+/* font-family: 'Mr Bedfort', cursive;  */
+}
+
+.btnTitle{
+    position: relative;
+    padding-top: 6%
+}
+
+.homeText{
+    position: relative;
+    background-color: rgba(184, 184, 184, .6);
+    width: 700px;
+    height: 270px;
+    max-width: 95%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
 }
 
 #blue{
-    background-image: url('../Assets/hobbiton2.jpg');
-    width: 700px;
-    height: 350px;
-    float: left;
+    background-image: url(../Assets/Daisy.jpg);
+   
 }
 
 /*#blue:hover{
@@ -25,11 +59,8 @@ h1{
 }*/
 
 #green{
-    background-image: url('../Assets/samBeach.jpg');
-    width: 700px;
-    height: 350px;
-    float: left;
-    z-index: 1;
+    background-image: url(../Assets/hydrangea.jpg)
+    
 }
 
 /*#green:hover{
@@ -41,11 +72,8 @@ h1{
 }*/
 
 #red{
-    background-image: url('../Assets/penguins.jpg');
-    width: 700px;
-    height: 350px;
-    float: left;
-    z-index: 1;
+    background-image: url(../Assets/peonies.jpg)
+   
 
 }
 
@@ -58,11 +86,8 @@ h1{
 }*/
 
 #yellow{
-    background-image: url('../Assets/utGrad.jpg');
-    width: 700px;
-    height: 350px;
-    float: left;
-    z-index: 1;
+    background-image: url(../Assets/zinnia.jpg)
+
 
 }
 
@@ -75,25 +100,25 @@ h1{
 }*/ 
 
 #purple{
-    position: relative;
+    position: absolute;
     background-image: url('../Assets/ProfPic.jpg');
     width: 500px;
     height: 400px;
     z-index: 3;
     border-radius: 50%;
-    margin-left: 450px;
-    margin-top: 100px;
+    margin-left: 32%;
+    margin-top: 10%;
 }
 
 #purple:hover{
-    position: relative;
+    position: absolute;
     background-image: url('../Assets/LionPic.jpg');
     width: 500px;
     height: 400px;
     z-index: 3;
     border-radius: 50%;
-    margin-left: 450px;
-    margin-top: 100px;
+    margin-left: 32%;
+    margin-top: 10%;
 }
 
 @media screen and (max-width:640px){
@@ -103,26 +128,38 @@ h1{
         text-align: center;
         display: inline;
     }*/
+    .colors{
+        position: relative;
+        z-index: 1;
+        max-width: 95%;
+        max-height: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     #blue{
-        width: 300px;
+        width: 400px;
         height: 150px;
         background-size: contain;
+        font-size: 4em;
     }
     #green{
-        width: 300px;
+        width: 400px;
         height: 150px;
         background-size: contain;
+        font-size: 4em;
     }
     #red{
-        width: 300px;
+        width: 400px;
         height: 150px;
         background-size: contain;
+        font-size: 4em;
     }
     #yellow{
-        width: 300px;
+        width: 400px;
         height: 150px;
         background-size: contain;
+        font-size: 4em;
     }
     #purple{
         display: none;
